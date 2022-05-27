@@ -8,3 +8,9 @@ LIN28A binding motif predictor 만들기
 
 ## Dataset
 - CLIP-35L33G.bam: CLIP-seq을 통해 LIN28 RNA-binding protein이 붙은 위치 정보
+
+## Procedure
+1. LIN28A-bound sequences 추출
+2. Sequence Vectorization
+3. Train a machine learning model for binary classficiation
+4. Model validation
