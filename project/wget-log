@@ -1,0 +1,13 @@
+--2022-06-01 16:31:00--  https://hyeshik.qbio.io/binfo/binfo1-datapack1.tar
+Resolving hyeshik.qbio.io (hyeshik.qbio.io)... 147.47.203.129
+Connecting to hyeshik.qbio.io (hyeshik.qbio.io)|147.47.203.129|:443... connected.
+WARNING: cannot verify hyeshik.qbio.io's certificate, issued by ‘CN=R3,O=Let's Encrypt,C=US’:
+  Unable to locally verify the issuer's authority.
+HTTP request sent, awaiting response... 200 OK
+Length: 6424668160 (6.0G) [application/octet-stream]
+Saving to: ‘STDOUT’
+
+-                     1%[                    ] 120.15M  17.8KB/s    in 7m 20s  
+
+
+Cannot write to ‘-’ (Success).
