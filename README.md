@@ -21,7 +21,7 @@ LIN28A binding sequence predictor 만들기
 4. 랜덤 시퀀스로 negative data를 만들어내고 positive data와 합쳐, dataset을 csv로 제작합니다.
 
 ### Project2
-1. 각 서열을 overlapped 3-mer로 인덱싱하고, pretrained model의 pooler layer output을 이용해 512차원 vector로 임베딩합니다.
+1. 각 서열을 overlapped 3-mer로 인덱싱하고, pretrained model의 pooler layer output을 이용해 768차원 vector로 임베딩합니다.
 2. 벡터공간상에서 랜덤 시퀀스와 LIN28A-bound sequence를 시각화합니다.
 3. Project1에서 만든 데이터세트를 학습검증세트와 테스트세트 8:2로 나눠주고, 학습검증데이터세트를 학습데이터세트와 검증데이터세트로 8:2로 나눠줍니다.
 4. DNA BERT를 fine-tunnning하여 LIN28A-bound sequence와 random sequence를 분류하는 binary-classification model로 만들어 줍니다.
